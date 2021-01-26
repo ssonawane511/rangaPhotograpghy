@@ -1,0 +1,10 @@
+/** @format */
+
+@media (max-width: 767px) {
+  .mainTitle {
+    font-size: 65px;
+  }
+  .header-hero {
+    height: 500px !important;
+  }
+}
