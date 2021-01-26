@@ -1280,6 +1280,8 @@ p {
 }
 .video-wrapper .video-image img {
   width: 100%;
+  height: 300px;
+  object-fit: cover;
 }
 .video-wrapper .video-icon {
   position: absolute;
