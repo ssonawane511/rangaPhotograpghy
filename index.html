@@ -12,20 +12,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!--====== Favicon Icon ======-->
-    <link rel="shortcut icon" href="assets/images/logo1-min.png" type="image/png" />
+    <link
+      rel="shortcut icon"
+      href="assets/images/logo1-min.png"
+      type="image/png"
+    />
     <!--====== Bootstrap CSS ======-->
     <link rel="stylesheet" href="assets/css/bootstrap-4.5.0.min.css" />
     <!--====== Default CSS ======-->
     <link rel="stylesheet" href="assets/css/default.css" />
     <!--====== Style CSS ======-->
     <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/responsive.css" />
     <link rel="stylesheet" href="assets/css/testimonial.css" />
   </head>
 
   <body>
-    
-
     <!--====== HEADER PART START ======-->
     <header class="header-area">
       <div class="navbar-area">
@@ -34,7 +36,11 @@
             <div class="col-lg-12">
               <nav class="navbar navbar-expand-lg">
                 <a class="navbar-brand" href="index.html">
-                  <img src="assets/images/logo1-min.png" alt="Logo" width="100px" /> 
+                  <img
+                    src="assets/images/logo1-min.png"
+                    alt="Logo"
+                    width="100px"
+                  />
                 </a>
                 <button
                   class="navbar-toggler"
@@ -87,35 +93,10 @@
         </div>
         <!-- container -->
       </div>
-      <!-- navbar area -->
-
-      <div
-        id="home"
-        class="header-hero bg_cover"
-        style="
-          background-image: url(assets/images/background-min.png);
-          height: 700px;
-        "
-      >
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-lg-8">
-              <h1 class="mainTitle">Ranga Academy</h1>
-              <p>The Awesome Course Ever</p>
-            </div>
-          </div>
-          <!-- row -->
-
-          <!-- row -->
-        </div>
-        <!-- container -->
-        <div id="particles-1" class="particles"></div>
-      </div>
-      <!-- header hero -->
     </header>
 
     <div class="videos">
-      <div class="container">
+      <div class="container-fluid" style="padding: 0px">
         <div class="row" style="margin-top: 20px">
           <div class="col">
             <!-- Carousel -->
@@ -126,7 +107,7 @@
                   data-slide-to="0"
                   class="active"
                 ></li>
-                <li
+                <!-- <li
                   data-target="#carousel-example"
                   data-slide-to="1"
                   class=""
@@ -135,19 +116,21 @@
                   data-target="#carousel-example"
                   data-slide-to="2"
                   class=""
-                ></li>
+                ></li> -->
               </ol>
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <div class="embed-responsive embed-responsive-16by9">
                     <video
+                      controls
+                      autoplay
                       class="embed-responsive-item"
-                      src=""
+                      src="assets/video/v1.mp4"
                       allowfullscreen=""
                     ></video>
                   </div>
                 </div>
-                <div class="carousel-item">
+                <!-- <div class="carousel-item">
                   <div class="embed-responsive embed-responsive-16by9">
                     <video
                       class="embed-responsive-item"
@@ -155,8 +138,8 @@
                       allowfullscreen=""
                     ></video>
                   </div>
-                </div>
-                <div class="carousel-item">
+                </div> -->
+                <!-- <div class="carousel-item">
                   <div class="embed-responsive embed-responsive-16by9">
                     <video
                       class="embed-responsive-item"
@@ -164,7 +147,7 @@
                       allowfullscreen=""
                     ></vidoe>
                   </div>
-                </div>
+                </div> -->
               </div>
               <a
                 class="carousel-control-prev"
@@ -300,10 +283,13 @@
               </div>
               <div class="services-content mt-30">
                 <h4 class="services-title"><a href="#">Photography </a></h4>
-                <p class="text">
-                  Rigorous training using industry-standard equipment & software
-                </p>
-                <a class="more" href="#"
+                <ul class="text">
+                  <li>
+                    Rigorous training using industry-standard equipment &
+                    software
+                  </li>
+                </ul>
+                <a class="more" href="photography.html"
                   >Learn More <i class="lni lni-chevron-right"></i
                 ></a>
               </div>
@@ -332,10 +318,13 @@
               </div>
               <div class="services-content mt-30">
                 <h4 class="services-title"><a href="#">cinematography</a></h4>
-                <p class="text">
-                  Rigorous training using industry-standard equipment & software
-                </p>
-                <a class="more" href="#"
+                <ul class="text">
+                  <li>
+                    Rigorous training using industry-standard equipment &
+                    software
+                  </li>
+                </ul>
+                <a class="more" href="videography.html"
                   >Learn More <i class="lni lni-chevron-right"></i
                 ></a>
               </div>
@@ -372,7 +361,7 @@
                   <li>All types of technical knowledge</li>
                 </ul>
 
-                <a class="more" href="#"
+                <a class="more" href="videoediting.html"
                   >Learn More <i class="lni lni-chevron-right"></i
                 ></a>
               </div>
@@ -384,181 +373,6 @@
       </div>
       <!-- container -->
     </section>
-
-    <!--====== SERVICES PART ENDS ======-->
-
-    <!--====== ABOUT PART START ======-->
-
-    <section id="about" class="about-area pt-70">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6">
-            <div
-              class="about-content mt-50 wow fadeInLeftBig"
-              data-wow-duration="0.2s"
-              data-wow-delay="0.2s"
-            >
-              <div class="section-title">
-                <div class="line"></div>
-                <h3 class="title">Photography <span></span></h3>
-              </div>
-              <!-- section title -->
-              <p class="text">
-                The one month professional Diploma in Photography at Ranga
-                Academy provides an accurate vision for specialization in
-                photography. The course aims at developing professional
-                photographers with core focus on artistic, technical and
-                entrepreneurial expertise. The course offers you a learning
-                environment to produce a unique style by engaging intellectual
-                and creative thinking along with strong technical know-how.
-              </p>
-
-              <a href="#" class="main-btn">READ CURRICULUM</a>
-            </div>
-            <!-- about content -->
-          </div>
-          <div class="col-lg-6">
-            <div
-              class="about-image text-center mt-50 wow fadeInRightBig"
-              data-wow-duration="0.2s"
-              data-wow-delay="0.2s"
-            >
-              <img
-                src="assets/images/photoGraphy.svg"
-                alt="about"
-                width="100%"
-              />
-            </div>
-            <!-- about image -->
-          </div>
-        </div>
-        <!-- row -->
-      </div>
-      <!-- container -->
-      <div class="about-shape-1">
-        <img src="assets/images/about-shape-1.svg" alt="shape" />
-      </div>
-    </section>
-
-    <!--====== ABOUT PART ENDS ======-->
-
-    <!--====== ABOUT PART START ======-->
-
-    <section class="about-area pt-70">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6 order-lg-last">
-            <div
-              class="about-content mt-50 wow fadeInLeftBig"
-              data-wow-duration="0.2s"
-              data-wow-delay="0.2s"
-            >
-              <div class="section-title">
-                <div class="line"></div>
-                <h3 class="title">Videography <span></span></h3>
-              </div>
-              <!-- section title -->
-              <p class="text">
-                The persons looking through the viewfinder, controlling
-                aperture, focus, shutter angle, and lighting are the magicians
-                called Videographer. It is the Videographer who become the "eye"
-                of the Director, transposing his/her vision into unforgettable
-                images that leave an indelible impression on our minds.
-                <br />
-
-                <br />
-                This course has been developed to provide in-depth knowledge in
-                Videography wherein students will learn all the aspects of being
-                a videography. The students doing the videographer Course are
-                not only given hands-on practical training in film and digital
-                cameras along with ex tensive lensing and lighting practicals
-                but are also given a rigorous input in the aesthetics of
-                image-making.
-              </p>
-              <a href="#" class="main-btn">READ CURRICULUM</a>
-            </div>
-            <!-- about content -->
-          </div>
-          <div class="col-lg-6 order-lg-first">
-            <div
-              class="about-image text-center mt-50 wow fadeInRightBig"
-              data-wow-duration="1s"
-              data-wow-delay="0.5s"
-            >
-              <img src="assets/images/videGraphy.svg" alt="about" />
-            </div>
-            <!-- about image -->
-          </div>
-        </div>
-        <!-- row -->
-      </div>
-      <!-- container -->
-    </section>
-
-    <!--====== ABOUT PART START ======-->
-
-    <section class="about-area pt-70">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6">
-            <div
-              class="about-content mt-50 wow fadeInLeftBig"
-              data-wow-duration="0.2s"
-              data-wow-delay="0.2s"
-            >
-              <div class="section-title">
-                <div class="line"></div>
-                <h3 class="title"><span></span> Video Editing</h3>
-              </div>
-              <!-- section title -->
-              <p class="text">
-                It is often said that the secret to great film-making is great
-                editing. Editing is what makes a film move up from good to
-                great. The editor of a film or television show is responsible
-                for imparting the right pitch, rhythm and tempo to the
-                storytelling after the film or television show has been shot.
-                Even a well-directed film can come out as a boring affair if it
-                is not creatively edited. Simi larly, a moderately directed film
-                can become a big hit due to the creative touch of an editor.
-              </p>
-              <p class="text">
-                Editing is the heart-beat of a film because it gives the film a
-                suitable pace and rhythm. It is a perfect combination of art and
-                technique. Extremely technical and yet tremendously artistic, a
-                career in film and television editing is monetarily as well as
-                creatively satisfying. We at CineCraft impart to you balanced
-                theoretical as well as practical film & television editing
-                education under the supervision of working professional editors.
-              </p>
-
-              <a href="#" class="main-btn">READ CURRICULUM</a>
-            </div>
-            <!-- about content -->
-          </div>
-          <div class="col-lg-6">
-            <div
-              class="about-image text-center mt-50 wow fadeInRightBig"
-              data-wow-duration="0.2s"
-              data-wow-delay="0.2s"
-            >
-              <img src="assets/images/editing.svg" alt="about" />
-            </div>
-            <!-- about image -->
-          </div>
-        </div>
-        <!-- row -->
-      </div>
-      <!-- container -->
-      <div class="about-shape-1">
-        <img src="assets/images/about-shape-1.svg" alt="shape" />
-      </div>
-    </section>
-
-    <!--====== ABOUT PART ENDS ======-->
-
-    <!--====== ABOUT PART ENDS ======-->
-
-    <!--====== VIDEO COUNTER PART START ======-->
 
     <section id="testimonial-area mt-150" style="margin-top: 150px">
       <div class="container">
@@ -798,7 +612,7 @@
                   >
                     <div class="counter-items text-center">
                       <span class="count"
-                        ><span class="counter">1000</span></span
+                        ><span class="counter">899</span></span
                       >
                       <p class="text">students</p>
                     </div>
@@ -811,7 +625,7 @@
                   >
                     <div class="counter-items text-center">
                       <span class="count"
-                        ><span class="counter">100</span></span
+                        ><span class="counter">120</span></span
                       >
                       <p class="text">Active students</p>
                     </div>
